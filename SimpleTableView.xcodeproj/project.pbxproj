@@ -16,6 +16,9 @@
 		EE996DA62795D2DC003DBA03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE996DA42795D2DC003DBA03 /* LaunchScreen.storyboard */; };
 		EE996DB12795D2DD003DBA03 /* SimpleTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE996DB02795D2DD003DBA03 /* SimpleTableViewTests.swift */; };
 		EE996DBC2795D2DD003DBA03 /* SimpleTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE996DBB2795D2DD003DBA03 /* SimpleTableViewUITests.swift */; };
+		EE996DCC2795D461003DBA03 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE996DCB2795D461003DBA03 /* MyTableViewCell.swift */; };
+		EE996DCE2795DA9C003DBA03 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE996DCD2795DA9C003DBA03 /* ImageTableViewCell.swift */; };
+		EE996DD02795DB55003DBA03 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE996DCF2795DB55003DBA03 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		EE996DB72795D2DD003DBA03 /* SimpleTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE996DBB2795D2DD003DBA03 /* SimpleTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewUITests.swift; sourceTree = "<group>"; };
 		EE996DBD2795D2DD003DBA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE996DCB2795D461003DBA03 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		EE996DCD2795DA9C003DBA03 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		EE996DCF2795DB55003DBA03 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				EE996D962795D2DB003DBA03 /* AppDelegate.swift */,
 				EE996D982795D2DB003DBA03 /* SceneDelegate.swift */,
 				EE996D9A2795D2DB003DBA03 /* ViewController.swift */,
+				EE996DCF2795DB55003DBA03 /* DataModel.swift */,
+				EE996DCB2795D461003DBA03 /* MyTableViewCell.swift */,
+				EE996DCD2795DA9C003DBA03 /* ImageTableViewCell.swift */,
 				EE996D9C2795D2DB003DBA03 /* Main.storyboard */,
 				EE996DA22795D2DC003DBA03 /* Assets.xcassets */,
 				EE996DA42795D2DC003DBA03 /* LaunchScreen.storyboard */,
@@ -261,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE996DD02795DB55003DBA03 /* DataModel.swift in Sources */,
 				EE996D9B2795D2DB003DBA03 /* ViewController.swift in Sources */,
 				EE996DA12795D2DB003DBA03 /* SimpleTableView.xcdatamodeld in Sources */,
 				EE996D972795D2DB003DBA03 /* AppDelegate.swift in Sources */,
+				EE996DCE2795DA9C003DBA03 /* ImageTableViewCell.swift in Sources */,
+				EE996DCC2795D461003DBA03 /* MyTableViewCell.swift in Sources */,
 				EE996D992795D2DB003DBA03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
